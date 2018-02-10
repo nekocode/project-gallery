@@ -44,18 +44,20 @@ function loadData(master, items) {
 
     var content = document.getElementById("content");
     var item, type, placeHolderCount, repoCount = 0, listDom;
+    function checkPlaceHolder() {
+        if (repoCount > 0 && (repoCount % 4 > 1)) {
+            placeHolderCount = 4 - (repoCount % 4);
+            for (var j = 0; j < placeHolderCount; j++) {
+                addPlaceHolderRepo(listDom);
+            }
+            repoCount = 0;
+        }
+    }
     for (var i = 0; i < items.length; i++) {
         item = items[i];
         type = item["type"];
         if (type == "category") {
-            if (repoCount > 0 && (repoCount % 4 > 1)) {
-                placeHolderCount = 4 - (repoCount % 4);
-                for (var j = 0; j < placeHolderCount; j++) {
-                    addPlaceHolderRepo(listDom);
-                }
-
-                repoCount = 0;
-            }
+            checkPlaceHolder();
             addCategory(content, item["name"]);
 
         } else if (type == "repo") {
@@ -68,6 +70,7 @@ function loadData(master, items) {
             repoCount++;
         }
     }
+    checkPlaceHolder();
 }
 
 loadData(master, items);
