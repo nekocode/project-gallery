@@ -38,9 +38,9 @@ function setHeader(avatar, name, url) {
     userName.innerHTML = name;
 }
 
-function loadData(master, items) {
-    if (!master || !items) return;
-    setHeader(master["avatar"], master["name"], master["url"])
+function loadData(user, items) {
+    if (!user || !items) return;
+    setHeader(user["avatar"], user["name"], user["url"])
 
     var content = document.getElementById("content");
     var item, type, placeHolderCount, repoCount = 0, listDom;
@@ -73,4 +73,4 @@ function loadData(master, items) {
     checkPlaceHolder();
 }
 
-loadData(master, items);
+loadData(user_data, items_data);

@@ -1,10 +1,10 @@
-var master = {
+var user_data = {
     "avatar": "https://avatars2.githubusercontent.com/u/4783781?s=64&amp;v=4",
     "name": "nekocode",
     "url": "https://github.com/nekocode"
 }
 
-var items = [
+var items_data = [
     {
         "type": "category",
         "name": "Android"
