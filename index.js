@@ -7,11 +7,11 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-function addRepo(parentDom, name, stars, forks, lang, description) {
+function addRepo(parentDom, name, stars, forks, lang, description, url) {
     var repoItem = document.createElement("li");
     repoItem.className = "repo-item";
 
-    var header = '<h3><a href="https://github.com/Yelp/bravado" target="_blank">' + name + '</a></h3>';
+    var header = '<h3><a href="' + url + '" target="_blank">' + name + '</a></h3>';
     var repoInfo = '<div class="repo-info"><span id="starts-info">' + svgStart + stars + '</span><span id="forks-info">' + svgFork + forks + '</span><span class="language Python">' + lang + '</span></div>';
     var repoDescription = '<p>' + description + '</p>';
     repoItem.innerHTML = header + repoInfo + repoDescription;
@@ -66,7 +66,7 @@ function loadData(user, items) {
                 listDom.className = "repos-list";
                 content.appendChild(listDom);
             }
-            addRepo(listDom, item["name"], numberWithCommas(item["stars"]), numberWithCommas(item["forks"]), item["lang"], item["description"]);
+            addRepo(listDom, item["name"], numberWithCommas(item["stars"]), numberWithCommas(item["forks"]), item["lang"], item["description"], item["url"]);
             repoCount++;
         }
     }

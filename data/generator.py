@@ -73,7 +73,7 @@ def gen_data_js(github, in_file_path, out_file_path):
         def write(content):
             js.write(content.encode('utf-8'))
 
-        write(str_user(user.avatar_url, user.name, user.url) + "\n")
+        write(str_user(user.avatar_url, user.name, user.html_url) + "\n")
 
         items_str = ""
         for line in txt:
@@ -89,7 +89,7 @@ def gen_data_js(github, in_file_path, out_file_path):
                     items_str += str_repo_item(
                         repo.name, repo.description,
                         repo.stargazers_count, repo.forks_count, repo.language,
-                        repo.url
+                        repo.html_url
                     )
 
         write(str_items(items_str))
