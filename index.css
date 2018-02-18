@@ -1,5 +1,4 @@
 body {
-    min-width: 1020px;
     word-wrap: break-word;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
@@ -21,7 +20,28 @@ a:hover {
 
 .container {
     margin: 0 auto;
-    width: 920;
+    width: 928px;
+}
+
+@media only screen and (max-width:928px) {
+    .container {
+        margin: 0 auto;
+        width: 696;
+    }
+}
+
+@media only screen and (max-width:696px) {
+    .container {
+        margin: 0 auto;
+        width: 464;
+    }
+}
+
+@media only screen and (max-width:464px) {
+    .container {
+        margin: 0 auto;
+        width: 232;
+    }
 }
 
 .pagehead {
@@ -59,20 +79,23 @@ a:hover {
     margin-bottom: -2px;
 }
 
-.repos-list {
+.repo-list {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: -6px;
+    margin-right: -6px;
 }
 
 .repo-item {
     /* display: flex; */
     width: 186px;
     padding: 16px !important;
+    margin-left: 6px;
+    margin-right: 6px;
     border: 1px #d1d5da solid !important;
     border-radius: 3px !important;
     font-size: 12px;
@@ -97,11 +120,4 @@ a:hover {
 
 .repo-item .repo-info span {
     margin-right: 12px;
-}
-
-.placeholder {
-    visibility: hidden;
-    height: 0;
-    padding: 0;
-    margin: 0;
 }

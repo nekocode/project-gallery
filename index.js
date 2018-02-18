@@ -19,12 +19,6 @@ function addRepo(parentDom, name, stars, forks, lang, description, url) {
     parentDom.appendChild(repoItem);
 }
 
-function addPlaceHolderRepo(parentDom) {
-    var repoItem = document.createElement("li");
-    repoItem.className = "repo-item placeholder";
-    parentDom.appendChild(repoItem);
-}
-
 function addCategory(parentDom, name) {
     var h2 = document.createElement("h2");
     h2.innerHTML = name;
@@ -43,34 +37,24 @@ function loadData(user, items) {
     setHeader(user.avatar, user.name, user.url);
 
     var content = document.getElementById("content");
-    var item, type, placeHolderCount, repoCount = 0, listDom;
-    function fillPlaceHolder() {
-        if (repoCount > 0 && (repoCount % 4 > 1)) {
-            placeHolderCount = 4 - (repoCount % 4);
-            for (var j = 0; j < placeHolderCount; j++) {
-                addPlaceHolderRepo(listDom);
-            }
-        }
-        repoCount = 0;
-    }
+    var item, type, repoCount = 0, listDom;
     for (var i = 0; i < items.length; i++) {
         item = items[i];
         type = item.type;
         if (type == "category") {
-            fillPlaceHolder();
             addCategory(content, item.name);
+            repoCount = 0;
 
         } else if (type == "repo") {
             if (repoCount == 0) {
                 listDom = document.createElement("ol");
-                listDom.className = "repos-list";
+                listDom.className = "repo-list";
                 content.appendChild(listDom);
             }
             addRepo(listDom, item.name, numberWithCommas(item.stars), numberWithCommas(item.forks), item.lang, item.description, item.url);
             repoCount++;
         }
     }
-    fillPlaceHolder();
 }
 
 loadData(user_data, items_data);
