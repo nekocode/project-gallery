@@ -78,4 +78,4 @@ function loadData(uiData, items) {
     }
 }
 
-loadData(ui_data, items_data);
+loadData(UI_DATA, LIST_DATA);
