@@ -2,7 +2,7 @@ A showcase of projects I have open sourced. You can take a look to the [live dem
 
 ## How to start
 
-The `index.js` need to read ui config and github repositories data from two files - `ui_data.js` and `list_data.js` in the data sub-directory. So you need to create this two files by the ['generator.py'](data/generator.py) firstly.
+The `index.js` need to read ui config and github repositories data from two files - `ui_data.js` and `list_data.js` in the data sub-directory. So you need to create this two files by the [`generator.py`](data/generator.py) firstly.
 
 Before you start generating the two data js files. You need to request a new github [access token](https://github.com/settings/tokens) for the data generator. Because the data generator need to fetch your user and repositories info from github by using this token. Afater you get the new token, you need to excute `echo YOU_GITHUB_TOKEN > token` in the project root direcoty to write the token string to a new file named 'token' which the data-generator need.
 
