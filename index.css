@@ -67,20 +67,20 @@ a:hover {
     text-align: right;
 }
 
-.description {
+.profile {
     border-bottom: 1px solid #e1e4e8;
     padding-top: 46px;
     padding-bottom: 36px;
 }
 
-.description p {
+.profile p {
     font-size: 18px;
     width: 76%;
     margin: auto;
     text-align: center;
 }
 
-.description ul {
+.profile ul {
     width: 76%;
     margin: 0 auto;
     margin-top: 16px;
@@ -89,13 +89,13 @@ a:hover {
     font-size: 16px;
 }
 
-.description ul li {
+.profile ul li {
     display: inline-block;
     position: relative;
     margin-left: 16px;
 }
 
-.description ul li:first-child {
+.profile ul li:first-child {
     display: inline-block;
     position: relative;
     margin-left: 0px;

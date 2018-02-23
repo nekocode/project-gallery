@@ -22,21 +22,39 @@ function addRepo(parentDom, name, stars, forks, lang, description, url) {
 function addCategory(parentDom, name) {
     var h2 = document.createElement("h2");
     h2.className = "category";
+    h2.id = name;
     h2.innerHTML = name;
     parentDom.appendChild(h2);
 }
 
-function setHeader(avatar, name, url) {
-    // document.getElementById("avatar").setAttribute("src", avatar);
-    var title = document.getElementById("title");
-    // userName.setAttribute("href", url);
-    // title.innerHTML = "<img class=\"avatar\" src=\"" + avatar + "\">" + name;
-    // title.innerHTML = name;
+function addCategoryToMenu(parentDom, name) {
+    var li = document.createElement("li");
+    li.innerHTML = '<a href="#' + name + '">' + name + '</a>';
+    parentDom.appendChild(li);
 }
 
-function loadData(user, items) {
-    if (!user || !items) return;
-    setHeader(user.avatar, user.name, user.url);
+function setHeader(title, githubUrl) {
+    document.getElementById("title").innerHTML = title;
+    github = document.getElementById("github");
+    github.innerHTML = githubUrl.replace(/(^\w+:|^)\/\//, '');
+    github.setAttribute("href", githubUrl);
+}
+
+function setDescription(txt) {
+    document.getElementById("description").innerHTML = txt;
+}
+
+function setFooter(txt) {
+    document.getElementById("footer").innerHTML = txt;
+}
+
+function loadData(uiData, items) {
+    if (!uiData || !items) return;
+    setHeader(uiData.title, uiData.github);
+    setDescription(uiData.description);
+    setFooter(uiData.footer);
+
+    var categoryMenu = document.getElementById("category-menu");
 
     var content = document.getElementById("content");
     var item, type, repoCount = 0, listDom;
@@ -45,6 +63,7 @@ function loadData(user, items) {
         type = item.type;
         if (type == "category") {
             addCategory(content, item.name);
+            addCategoryToMenu(categoryMenu, item.name);
             repoCount = 0;
 
         } else if (type == "repo") {
@@ -59,4 +78,4 @@ function loadData(user, items) {
     }
 }
 
-loadData(user_data, items_data);
+loadData(ui_data, items_data);
