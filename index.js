@@ -11,7 +11,7 @@ function addRepo(parentDom, name, stars, forks, lang, description, url) {
     var repoItem = document.createElement("li");
     repoItem.className = "repo-item";
 
-    var header = '<h3><a href="' + url + '" target="_blank">' + name + '</a></h3>';
+    var header = '<a href="' + url + '" target="_blank"></a>' + '<h3>' + name + '</h3>';
     var repoInfo = '<div class="repo-info"><span id="starts-info">' + svgStart + stars + '</span><span id="forks-info">' + svgFork + forks + '</span><span class="language Python">' + lang + '</span></div>';
     var repoDescription = '<p>' + description + '</p>';
     repoItem.innerHTML = header + repoInfo + repoDescription;
@@ -21,15 +21,17 @@ function addRepo(parentDom, name, stars, forks, lang, description, url) {
 
 function addCategory(parentDom, name) {
     var h2 = document.createElement("h2");
+    h2.className = "category";
     h2.innerHTML = name;
     parentDom.appendChild(h2);
 }
 
 function setHeader(avatar, name, url) {
-    document.getElementById("avatar").setAttribute("src", avatar);
-    var userName = document.getElementById("user-name");
-    userName.setAttribute("href", url);
-    userName.innerHTML = name;
+    // document.getElementById("avatar").setAttribute("src", avatar);
+    var title = document.getElementById("title");
+    // userName.setAttribute("href", url);
+    // title.innerHTML = "<img class=\"avatar\" src=\"" + avatar + "\">" + name;
+    // title.innerHTML = name;
 }
 
 function loadData(user, items) {

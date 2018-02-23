@@ -1,7 +1,15 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
 body {
     word-wrap: break-word;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
+    font: 14px "SQMarket", "Helvetica Neue", sans-serif;
     line-height: 1.5;
     color: #24292e;
     background-color: #fff;
@@ -9,10 +17,9 @@ body {
 }
 
 a {
-    color: #0366d6;
+    color: #3e8cb7;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -20,95 +27,137 @@ a:hover {
 
 .container {
     margin: 0 auto;
-    width: 928px;
+    width: 910px;
 }
-
-@media only screen and (max-width:928px) {
+@media only screen and (max-width:910px) {
     .container {
         margin: 0 auto;
-        width: 696;
+        width: 580px;
     }
 }
-
-@media only screen and (max-width:696px) {
+@media only screen and (max-width:580px) {
     .container {
         margin: 0 auto;
-        width: 464;
-    }
-}
-
-@media only screen and (max-width:464px) {
-    .container {
-        margin: 0 auto;
-        width: 232;
+        width: 250px;
     }
 }
 
 .pagehead {
     position: relative;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 13px;
     border-bottom: 1px solid #e1e4e8;
-}
-
-.pagehead .container {
     display: flex;
     justify-content: space-between;
 }
 
 .pagehead h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 28px;
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: auto;
+    width: 100%;
+    text-align: left;
 }
 
-.avatar {
+.pagehead a {
+    margin: auto;
+    width: 100%;
+    text-align: right;
+}
+
+.description {
+    border-bottom: 1px solid #e1e4e8;
+    padding-top: 46px;
+    padding-bottom: 36px;
+}
+
+.description p {
+    font-size: 18px;
+    width: 76%;
+    margin: auto;
+    text-align: center;
+}
+
+.description ul {
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 16px;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.description ul li {
     display: inline-block;
-    overflow: hidden;
-    line-height: 1;
-    vertical-align: middle;
-    border-radius: 3px;
+    position: relative;
+    margin-left: 16px;
 }
 
-.pagehead .avatar {
-    margin-top: -2px;
-    margin-right: 9px;
-    margin-bottom: -2px;
+.description ul li:first-child {
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+}
+
+.category {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.category:first-of-type {
+    margin-top: 46px;
+}
+
+.category:not(:first-of-type):before {
+    border-top: 1px solid #eff0f1;
+    content: "";
+    display: block;
+    /* margin-top: -40px; */
+    padding-bottom: 36px;
+    position: relative;
 }
 
 .repo-list {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    padding-left: 0;
+    margin-left: -40px;
+    margin-right: -40px;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: -6px;
-    margin-right: -6px;
 }
 
 .repo-item {
-    /* display: flex; */
-    width: 186px;
-    padding: 16px !important;
-    margin-left: 6px;
-    margin-right: 6px;
-    border: 1px #d1d5da solid !important;
+    position: relative;    
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;    
     border-radius: 3px !important;
     font-size: 12px;
-    margin-bottom: 16px;
-    color: #586069;
+    color: #5e6874;
+}
+
+.repo-item:hover {
+    cursor: pointer;
+    background: #f5f5f5;
+}
+
+.repo-item a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .repo-item h3 {
-    margin-top: 0px;
-}
-
-.repo-item p {
-    margin-bottom: 0px;
+    font-size: 14px;
+    color: #3e8cb7;
 }
 
 .octicon {
@@ -118,6 +167,24 @@ a:hover {
     margin-right: 4px;
 }
 
-.repo-item .repo-info span {
+.repo-info {
+    margin-top: 6px;
+}
+
+.repo-info span {
     margin-right: 12px;
+}
+
+.repo-item p {
+    margin-top: 4px;
+}
+
+footer {
+    margin-top: 46px;
+    background: #f4f5f6;
+    border-top: 1px solid #eff0f1;
+    text-align: center;
+    padding-top:26px;
+    padding-bottom:26px;
+    color: #b0b8c1;
 }
