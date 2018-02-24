@@ -61,6 +61,16 @@ a:hover {
     text-align: left;
 }
 
+@media only screen and (max-width:580px) {
+    .pagehead {
+        text-align: center;
+        display: block;
+    }
+    .pagehead h1 {
+        text-align: center;
+    }
+}
+
 .pagehead a {
     margin: auto;
     width: 100%;
