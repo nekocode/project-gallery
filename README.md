@@ -15,3 +15,7 @@ Repository Name, Starts Count, Forks Count
 ```
 
 You can make some tweaks to this list such as reorder items or insert some new categories. And after you finish your tweaks, excute `./gen_data.sh list-js` command to generate the final `list-data.js` file into the data directory. Now you can open the `index.html` to see the final effect.
+
+## Example
+
+Checkout to the branch [`mine`](https://github.com/nekocode/project-gallery/tree/mine) to see my personal example.
