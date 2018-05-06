@@ -1,0 +1,480 @@
+{
+    "config": {
+        "description": "I'm a full-stack engineer and specialize in android development. I like open source. Here are some projects I have contributed to the community.",
+        "footer": "\u00a9 Mark Yueng 2018 | <a href=\"https://github.com/nekocode/project-gallery\" target=\"_blank\">Source Code</a>",
+        "github": "https://github.com/nekocode",
+        "title": "Nekocode Open Source"
+    },
+    "repos": [
+        {
+            "name": "Android",
+            "type": "category"
+        },
+        {
+            "description": "Hubs is a content crawler application on Android. It provides apis to crawl web content and display data.",
+            "forks": 0,
+            "lang": "Java",
+            "name": "Hubs",
+            "stars": 6,
+            "type": "repo",
+            "url": "https://github.com/Hubs-App/Hubs"
+        },
+        {
+            "description": "A debug tool to inspect used layout files of current Activity.",
+            "forks": 19,
+            "lang": "Java",
+            "name": "ResourceInspector",
+            "stars": 345,
+            "type": "repo",
+            "url": "https://github.com/nekocode/ResourceInspector"
+        },
+        {
+            "description": "Auto generate adapters for android list views.",
+            "forks": 24,
+            "lang": "Java",
+            "name": "Items",
+            "stars": 203,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Items"
+        },
+        {
+            "description": "A router generator for Android, similar to retrofit.",
+            "forks": 27,
+            "lang": "Java",
+            "name": "Meepo",
+            "stars": 316,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Meepo"
+        },
+        {
+            "description": ":octocat: Badge drawable for android.",
+            "forks": 91,
+            "lang": "Java",
+            "name": "Badge",
+            "stars": 774,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Badge"
+        },
+        {
+            "description": "Before building the jars into android dex archives, filter files inside them.",
+            "forks": 4,
+            "lang": "Java",
+            "name": "JarFilterPlugin",
+            "stars": 33,
+            "type": "repo",
+            "url": "https://github.com/nekocode/JarFilterPlugin"
+        },
+        {
+            "description": "Wraps the Bangcle WhiteCrypto tools and encrypts your keys at build time.",
+            "forks": 0,
+            "lang": "Java",
+            "name": "Bangcle-Crypto-Wrapper",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Bangcle-Crypto-Wrapper"
+        },
+        {
+            "description": "\ud83d\udcf7 Realtime camera filters on android.",
+            "forks": 257,
+            "lang": "Java",
+            "name": "CameraFilter",
+            "stars": 1536,
+            "type": "repo",
+            "url": "https://github.com/nekocode/CameraFilter"
+        },
+        {
+            "description": "\ud83d\ude80 An Android project template using Kotlin/MVP/ReactiveX. It provides a generator to fast create a Kotlin Android template project.",
+            "forks": 191,
+            "lang": "Python",
+            "name": "Kotlin-Android-Template",
+            "stars": 1402,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Kotlin-Android-Template"
+        },
+        {
+            "description": "One line of code to implement emoji to your whole android application.",
+            "forks": 59,
+            "lang": "Java",
+            "name": "Emojix",
+            "stars": 578,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Emojix"
+        },
+        {
+            "description": "\ud83d\udcfb A third-party android client of DoubanFM.",
+            "forks": 92,
+            "lang": "Kotlin",
+            "name": "Murmur",
+            "stars": 452,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Murmur"
+        },
+        {
+            "description": "Help to layout and draw dividers on existing views.",
+            "forks": 30,
+            "lang": "Java",
+            "name": "DividerDrawable",
+            "stars": 448,
+            "type": "repo",
+            "url": "https://github.com/nekocode/DividerDrawable"
+        },
+        {
+            "description": "Bind observables to the lifecycle of Activity or Fragment in a non-invasive way.",
+            "forks": 35,
+            "lang": "Java",
+            "name": "RxLifecycle",
+            "stars": 397,
+            "type": "repo",
+            "url": "https://github.com/zhihu/RxLifecycle"
+        },
+        {
+            "description": "Some music visualization demos on Android.",
+            "forks": 26,
+            "lang": "Java",
+            "name": "MusicVisualization",
+            "stars": 336,
+            "type": "repo",
+            "url": "https://github.com/nekocode/MusicVisualization"
+        },
+        {
+            "description": "Low Ploy Triangulation Animation on Android.",
+            "forks": 20,
+            "lang": "Java",
+            "name": "TriangulationDrawable",
+            "stars": 261,
+            "type": "repo",
+            "url": "https://github.com/nekocode/TriangulationDrawable"
+        },
+        {
+            "description": "A toolbar indicator for android, likes twitter's.",
+            "forks": 41,
+            "lang": "Java",
+            "name": "ToolbarIndicator",
+            "stars": 213,
+            "type": "repo",
+            "url": "https://github.com/nekocode/ToolbarIndicator"
+        },
+        {
+            "description": "This is a library that can help you to receive results from startActivityForResult() as an Observable.",
+            "forks": 5,
+            "lang": "Java",
+            "name": "RxActivityResult",
+            "stars": 69,
+            "type": "repo",
+            "url": "https://github.com/nekocode/RxActivityResult"
+        },
+        {
+            "description": "Create blur effect on android by using texture view. ",
+            "forks": 1,
+            "lang": "Java",
+            "name": "blur-using-textureview",
+            "stars": 12,
+            "type": "repo",
+            "url": "https://github.com/nekocode/blur-using-textureview"
+        },
+        {
+            "description": "Tachie transition, written in renderscript.",
+            "forks": 1,
+            "lang": "Java",
+            "name": "TachieTransition",
+            "stars": 10,
+            "type": "repo",
+            "url": "https://github.com/nekocode/TachieTransition"
+        },
+        {
+            "description": "Setup websocket connection between your applications on mobile and computer.",
+            "forks": 1,
+            "lang": "Java",
+            "name": "Websocket-Adb-Forward",
+            "stars": 4,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Websocket-Adb-Forward"
+        },
+        {
+            "description": "Internal inspect tool for QA peoples.",
+            "forks": 1,
+            "lang": "Java",
+            "name": "AndroidGodEye",
+            "stars": 7,
+            "type": "repo",
+            "url": "https://github.com/zhihu/AndroidGodEye"
+        },
+        {
+            "name": "Java",
+            "type": "category"
+        },
+        {
+            "description": "Plugin which generates Android Parcelable boilerplate code for kotlin's class.",
+            "forks": 13,
+            "lang": "Java",
+            "name": "android-parcelable-intellij-plugin-kotlin",
+            "stars": 262,
+            "type": "repo",
+            "url": "https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin"
+        },
+        {
+            "description": "A command-line interface of Android Studio's method tracer.",
+            "forks": 6,
+            "lang": "Java",
+            "name": "MethodTracerCli",
+            "stars": 54,
+            "type": "repo",
+            "url": "https://github.com/nekocode/MethodTracerCli"
+        },
+        {
+            "description": "This project demonstrates how to import aar libs and android.jar to a pure java gradle module.",
+            "forks": 0,
+            "lang": "Java",
+            "name": "Gradle-Import-Aar",
+            "stars": 8,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Gradle-Import-Aar"
+        },
+        {
+            "name": "Web",
+            "type": "category"
+        },
+        {
+            "description": "A simple RESTful Web Service build with Tornado.",
+            "forks": 35,
+            "lang": "Python",
+            "name": "tornaREST",
+            "stars": 183,
+            "type": "repo",
+            "url": "https://github.com/nekocode/tornaREST"
+        },
+        {
+            "description": "A webpage to show the projects you have open sourced in github.",
+            "forks": 0,
+            "lang": "CSS",
+            "name": "project-gallery",
+            "stars": 4,
+            "type": "repo",
+            "url": "https://github.com/nekocode/project-gallery"
+        },
+        {
+            "description": "\u4f7f\u7528 Tornado \u5f00\u53d1\u7684\u5fae\u4fe1\u516c\u4f17\u5e73\u53f0\u6295\u7968\u7cfb\u7edf ",
+            "forks": 15,
+            "lang": "JavaScript",
+            "name": "weixin_vote",
+            "stars": 29,
+            "type": "repo",
+            "url": "https://github.com/nekocode/weixin_vote"
+        },
+        {
+            "description": "\u300c\u5367\u69fd\u7535\u5f71\u300d\u516c\u4f17\u53f7\u8425\u9500\u7528\u6d4b\u8bd5\u6e38\u620f",
+            "forks": 1,
+            "lang": "Python",
+            "name": "wcmovie_test",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/wcmovie_test"
+        },
+        {
+            "description": "A repo to host the source files of http://nekocode.cn",
+            "forks": 13,
+            "lang": "Makefile",
+            "name": "nekocode.cn",
+            "stars": 46,
+            "type": "repo",
+            "url": "https://github.com/nekocode/nekocode.cn"
+        },
+        {
+            "name": "Game",
+            "type": "category"
+        },
+        {
+            "description": "A danmaku game just like 'BeatHazard'.",
+            "forks": 0,
+            "lang": "C++",
+            "name": "BattleBeats",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/BattleBeats"
+        },
+        {
+            "description": "Simple and fast tool to import Cocos2d-x spritesheets (TextureAtlas) into Unity3D.",
+            "forks": 2,
+            "lang": "C#",
+            "name": "Unity3D-TextureAtlasSlicer-Cocos2d-x",
+            "stars": 5,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Unity3D-TextureAtlasSlicer-Cocos2d-x"
+        },
+        {
+            "description": "A simple text adventure game engine.",
+            "forks": 0,
+            "lang": "C++",
+            "name": "FScript0.15",
+            "stars": 3,
+            "type": "repo",
+            "url": "https://github.com/nekocode/FScript0.15"
+        },
+        {
+            "description": "A simple text adventure game engine.",
+            "forks": 1,
+            "lang": "C",
+            "name": "FScript0.2",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/FScript0.2"
+        },
+        {
+            "description": "A simple IDE for FScript 0.1x.",
+            "forks": 1,
+            "lang": "C++",
+            "name": "FScriptIDE",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/FScriptIDE"
+        },
+        {
+            "name": "Others",
+            "type": "category"
+        },
+        {
+            "description": "[Unmaintained] Say Hi to your new followers in Zhihu.",
+            "forks": 57,
+            "lang": "Python",
+            "name": "zhihuSayHi",
+            "stars": 122,
+            "type": "repo",
+            "url": "https://github.com/nekocode/zhihuSayHi"
+        },
+        {
+            "description": "\ud83d\udcfb \u8c46\u74e3 FM \u7b2c\u4e09\u65b9\u7ea2\u5fc3\u9891\u9053\u64ad\u653e\u5668",
+            "forks": 38,
+            "lang": "Python",
+            "name": "doubanfm-py",
+            "stars": 120,
+            "type": "repo",
+            "url": "https://github.com/nekocode/doubanfm-py"
+        },
+        {
+            "description": ":pill: \u5fae\u4fe1\u516c\u4f17\u53f7\u9605\u8bfb\u6570\u3001\u70b9\u8d5e\u6570\u83b7\u53d6 \u89e3\u51b3\u65b9\u6848",
+            "forks": 33,
+            "lang": "Python",
+            "name": "wx_sniffer",
+            "stars": 61,
+            "type": "repo",
+            "url": "https://github.com/nekocode/wx_sniffer"
+        },
+        {
+            "description": "Penetration testing on windows(7 or 8) ",
+            "forks": 3,
+            "lang": "PowerShell",
+            "name": "win_penetration",
+            "stars": 17,
+            "type": "repo",
+            "url": "https://github.com/nekocode/win_penetration"
+        },
+        {
+            "description": "My solutions of leetcode's problems.",
+            "forks": 4,
+            "lang": "Java",
+            "name": "leetcode-solutions",
+            "stars": 11,
+            "type": "repo",
+            "url": "https://github.com/nekocode/leetcode-solutions"
+        },
+        {
+            "description": "Docker image for Android builds. Base on Oracle Java 8, Android Sdk 23/24 and Gradle 3.1.",
+            "forks": 6,
+            "lang": null,
+            "name": "docker-android",
+            "stars": 10,
+            "type": "repo",
+            "url": "https://github.com/nekocode/docker-android"
+        },
+        {
+            "description": "\u5bfb\u627e\u67d0\u4eba\u81ea\u5df1 Star \u81ea\u5df1\u7684\u4ed3\u5e93",
+            "forks": 1,
+            "lang": "Python",
+            "name": "finding_self_starred",
+            "stars": 7,
+            "type": "repo",
+            "url": "https://github.com/nekocode/finding_self_starred"
+        },
+        {
+            "description": "A simple backdoor script on windows.",
+            "forks": 5,
+            "lang": "Python",
+            "name": "nbackdoor",
+            "stars": 4,
+            "type": "repo",
+            "url": "https://github.com/nekocode/nbackdoor"
+        },
+        {
+            "description": "\u5728\u540e\u53f0\u9759\u9ed8\u76d1\u63a7\u5e76\u6740\u6b7b\u6307\u5b9a\u8fdb\u7a0b\u7684\u5de5\u5177",
+            "forks": 0,
+            "lang": "C++",
+            "name": "Taskkiller",
+            "stars": 3,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Taskkiller"
+        },
+        {
+            "description": "http://nekocode.cn",
+            "forks": 0,
+            "lang": "HTML",
+            "name": "nekocode.github.io",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/nekocode.github.io"
+        },
+        {
+            "description": "\u6279\u5904\u7406 Mask-Image \u8f6c\u6362\u4e3a\u5e26\u900f\u660e\u901a\u9053\u7684 PNG \u56fe\u7247",
+            "forks": 0,
+            "lang": "C++",
+            "name": "cxi",
+            "stars": 1,
+            "type": "repo",
+            "url": "https://github.com/nekocode/cxi"
+        },
+        {
+            "description": "gradle test project",
+            "forks": 0,
+            "lang": null,
+            "name": "gradle_test",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/gradle_test"
+        },
+        {
+            "description": "mqtt test in python",
+            "forks": 0,
+            "lang": "Python",
+            "name": "mqtt_test",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/mqtt_test"
+        },
+        {
+            "description": "Personal resume of Mark Yueng.",
+            "forks": 0,
+            "lang": "TeX",
+            "name": "resume",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/resume"
+        },
+        {
+            "description": ".vimrc for python dev",
+            "forks": 0,
+            "lang": "VimL",
+            "name": "vimrc",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/vimrc"
+        },
+        {
+            "description": "\u77e5\u4e4e x RxJava Meetup",
+            "forks": 0,
+            "lang": null,
+            "name": "zhihu-rxjava-meetup",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/zhihu-rxjava-meetup"
+        }
+    ]
+}
