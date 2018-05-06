@@ -7,6 +7,17 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+// https://stackoverflow.com/a/4033310/5729581
+function httpGetAsync(theUrl, callback) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    };
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+}
+
 function addRepo(parentDom, name, stars, forks, lang, description, url) {
     var repoItem = document.createElement("li");
     repoItem.className = "repo-item";
@@ -48,18 +59,21 @@ function setFooter(txt) {
     document.getElementById("footer").innerHTML = txt;
 }
 
-function loadData(uiData, items) {
-    if (!uiData || !items) return;
-    setHeader(uiData.title, uiData.github);
-    setDescription(uiData.description);
-    setFooter(uiData.footer);
+function loadData(data) {
+    var config = data.config;
+    var repos = data.repos;
+    if (!config || !repos) return;
+
+    setHeader(config.title, config.github);
+    setDescription(config.description);
+    setFooter(config.footer);
 
     var categoryMenu = document.getElementById("category-menu");
 
     var content = document.getElementById("content");
     var item, type, repoCount = 0, listDom;
-    for (var i = 0; i < items.length; i++) {
-        item = items[i];
+    for (var i = 0; i < repos.length; i++) {
+        item = repos[i];
         type = item.type;
         if (type == "category") {
             addCategory(content, item.name);
@@ -78,4 +92,6 @@ function loadData(uiData, items) {
     }
 }
 
-loadData(UI_DATA, LIST_DATA);
+httpGetAsync('data/data.json', function(responseText) {
+    loadData(JSON.parse(responseText));
+});
