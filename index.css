@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     word-wrap: break-word;
-    font: 14px "SQMarket", "Helvetica Neue", sans-serif;
+    font-family: Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 'Microsoft YaHei', sans-serif;
     line-height: 1.5;
     color: #24292e;
     background-color: #fff;
