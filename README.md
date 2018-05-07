@@ -4,6 +4,8 @@ A webpage to show the projects you have open sourced in github. You can take a l
 
 0. Request a github [access token](https://github.com/settings/tokens) for the generator script. Then excute `echo your_access_token > token`.
 
+0. Install python module PyGithub `pip install pygithub`.
+
 0. Excute `./gen_data.sh`. It will generate the `data.json` file into your `data` subdirectory.
 
 0. Modify the `data.json`. For example, reorder or classify the repositories.
