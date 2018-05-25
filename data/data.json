@@ -15,7 +15,7 @@
             "forks": 0,
             "lang": "Java",
             "name": "Hubs",
-            "stars": 6,
+            "stars": 8,
             "type": "repo",
             "url": "https://github.com/Hubs-App/Hubs"
         },
@@ -24,7 +24,7 @@
             "forks": 19,
             "lang": "Java",
             "name": "ResourceInspector",
-            "stars": 345,
+            "stars": 347,
             "type": "repo",
             "url": "https://github.com/nekocode/ResourceInspector"
         },
@@ -48,19 +48,19 @@
         },
         {
             "description": ":octocat: Badge drawable for android.",
-            "forks": 91,
+            "forks": 93,
             "lang": "Java",
             "name": "Badge",
-            "stars": 774,
+            "stars": 779,
             "type": "repo",
             "url": "https://github.com/nekocode/Badge"
         },
         {
             "description": "Before building the jars into android dex archives, filter files inside them.",
-            "forks": 4,
+            "forks": 5,
             "lang": "Java",
             "name": "JarFilterPlugin",
-            "stars": 33,
+            "stars": 66,
             "type": "repo",
             "url": "https://github.com/nekocode/JarFilterPlugin"
         },
@@ -75,28 +75,28 @@
         },
         {
             "description": "\ud83d\udcf7 Realtime camera filters on android.",
-            "forks": 257,
+            "forks": 259,
             "lang": "Java",
             "name": "CameraFilter",
-            "stars": 1536,
+            "stars": 1550,
             "type": "repo",
             "url": "https://github.com/nekocode/CameraFilter"
         },
         {
             "description": "\ud83d\ude80 An Android project template using Kotlin/MVP/ReactiveX. It provides a generator to fast create a Kotlin Android template project.",
-            "forks": 191,
+            "forks": 192,
             "lang": "Python",
             "name": "Kotlin-Android-Template",
-            "stars": 1402,
+            "stars": 1415,
             "type": "repo",
             "url": "https://github.com/nekocode/Kotlin-Android-Template"
         },
         {
             "description": "One line of code to implement emoji to your whole android application.",
-            "forks": 59,
+            "forks": 60,
             "lang": "Java",
             "name": "Emojix",
-            "stars": 578,
+            "stars": 579,
             "type": "repo",
             "url": "https://github.com/nekocode/Emojix"
         },
@@ -105,7 +105,7 @@
             "forks": 92,
             "lang": "Kotlin",
             "name": "Murmur",
-            "stars": 452,
+            "stars": 454,
             "type": "repo",
             "url": "https://github.com/nekocode/Murmur"
         },
@@ -114,7 +114,7 @@
             "forks": 30,
             "lang": "Java",
             "name": "DividerDrawable",
-            "stars": 448,
+            "stars": 452,
             "type": "repo",
             "url": "https://github.com/nekocode/DividerDrawable"
         },
@@ -123,16 +123,16 @@
             "forks": 35,
             "lang": "Java",
             "name": "RxLifecycle",
-            "stars": 397,
+            "stars": 403,
             "type": "repo",
             "url": "https://github.com/zhihu/RxLifecycle"
         },
         {
             "description": "Some music visualization demos on Android.",
-            "forks": 26,
+            "forks": 27,
             "lang": "Java",
             "name": "MusicVisualization",
-            "stars": 336,
+            "stars": 341,
             "type": "repo",
             "url": "https://github.com/nekocode/MusicVisualization"
         },
@@ -147,10 +147,10 @@
         },
         {
             "description": "A toolbar indicator for android, likes twitter's.",
-            "forks": 41,
+            "forks": 42,
             "lang": "Java",
             "name": "ToolbarIndicator",
-            "stars": 213,
+            "stars": 217,
             "type": "repo",
             "url": "https://github.com/nekocode/ToolbarIndicator"
         },
@@ -159,7 +159,7 @@
             "forks": 5,
             "lang": "Java",
             "name": "RxActivityResult",
-            "stars": 69,
+            "stars": 70,
             "type": "repo",
             "url": "https://github.com/nekocode/RxActivityResult"
         },
@@ -186,7 +186,7 @@
             "forks": 1,
             "lang": "Java",
             "name": "Websocket-Adb-Forward",
-            "stars": 4,
+            "stars": 5,
             "type": "repo",
             "url": "https://github.com/nekocode/Websocket-Adb-Forward"
         },
@@ -208,7 +208,7 @@
             "forks": 13,
             "lang": "Java",
             "name": "android-parcelable-intellij-plugin-kotlin",
-            "stars": 262,
+            "stars": 265,
             "type": "repo",
             "url": "https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin"
         },
@@ -217,7 +217,7 @@
             "forks": 6,
             "lang": "Java",
             "name": "MethodTracerCli",
-            "stars": 54,
+            "stars": 56,
             "type": "repo",
             "url": "https://github.com/nekocode/MethodTracerCli"
         },
@@ -226,7 +226,7 @@
             "forks": 0,
             "lang": "Java",
             "name": "Gradle-Import-Aar",
-            "stars": 8,
+            "stars": 9,
             "type": "repo",
             "url": "https://github.com/nekocode/Gradle-Import-Aar"
         },
@@ -239,25 +239,25 @@
             "forks": 35,
             "lang": "Python",
             "name": "tornaREST",
-            "stars": 183,
+            "stars": 186,
             "type": "repo",
             "url": "https://github.com/nekocode/tornaREST"
         },
         {
             "description": "A webpage to show the projects you have open sourced in github.",
-            "forks": 0,
-            "lang": "CSS",
+            "forks": 1,
+            "lang": "JavaScript",
             "name": "project-gallery",
-            "stars": 4,
+            "stars": 18,
             "type": "repo",
             "url": "https://github.com/nekocode/project-gallery"
         },
         {
             "description": "\u4f7f\u7528 Tornado \u5f00\u53d1\u7684\u5fae\u4fe1\u516c\u4f17\u5e73\u53f0\u6295\u7968\u7cfb\u7edf ",
-            "forks": 15,
+            "forks": 16,
             "lang": "JavaScript",
             "name": "weixin_vote",
-            "stars": 29,
+            "stars": 31,
             "type": "repo",
             "url": "https://github.com/nekocode/weixin_vote"
         },
@@ -334,7 +334,7 @@
         },
         {
             "description": "[Unmaintained] Say Hi to your new followers in Zhihu.",
-            "forks": 57,
+            "forks": 56,
             "lang": "Python",
             "name": "zhihuSayHi",
             "stars": 122,
@@ -343,19 +343,19 @@
         },
         {
             "description": "\ud83d\udcfb \u8c46\u74e3 FM \u7b2c\u4e09\u65b9\u7ea2\u5fc3\u9891\u9053\u64ad\u653e\u5668",
-            "forks": 38,
+            "forks": 39,
             "lang": "Python",
             "name": "doubanfm-py",
-            "stars": 120,
+            "stars": 121,
             "type": "repo",
             "url": "https://github.com/nekocode/doubanfm-py"
         },
         {
             "description": ":pill: \u5fae\u4fe1\u516c\u4f17\u53f7\u9605\u8bfb\u6570\u3001\u70b9\u8d5e\u6570\u83b7\u53d6 \u89e3\u51b3\u65b9\u6848",
-            "forks": 33,
+            "forks": 34,
             "lang": "Python",
             "name": "wx_sniffer",
-            "stars": 61,
+            "stars": 62,
             "type": "repo",
             "url": "https://github.com/nekocode/wx_sniffer"
         },
@@ -364,7 +364,7 @@
             "forks": 3,
             "lang": "PowerShell",
             "name": "win_penetration",
-            "stars": 17,
+            "stars": 16,
             "type": "repo",
             "url": "https://github.com/nekocode/win_penetration"
         },
