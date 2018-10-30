@@ -7,62 +7,44 @@
     },
     "repos": [
         {
-            "name": "Android",
+            "name": "Android-Buildtime",
             "type": "category"
-        },
-        {
-            "description": "Create android kotlin app from template. ",
-            "forks": 195,
-            "lang": "Kotlin",
-            "name": "create-android-kotlin-app",
-            "stars": 1451,
-            "type": "repo",
-            "url": "https://github.com/nekocode/create-android-kotlin-app"
-        },
-        {
-            "description": "A debug tool to inspect used layout files of current Activity.",
-            "forks": 19,
-            "lang": "Java",
-            "name": "ResourceInspector",
-            "stars": 348,
-            "type": "repo",
-            "url": "https://github.com/nekocode/ResourceInspector"
-        },
-        {
-            "description": "Auto generate adapters for android list views.",
-            "forks": 27,
-            "lang": "Java",
-            "name": "Items",
-            "stars": 235,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Items"
-        },
-        {
-            "description": "A router generator for Android, similar to retrofit.",
-            "forks": 28,
-            "lang": "Java",
-            "name": "Meepo",
-            "stars": 318,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Meepo"
-        },
-        {
-            "description": ":octocat: Badge drawable for android.",
-            "forks": 99,
-            "lang": "Java",
-            "name": "Badge",
-            "stars": 804,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Badge"
         },
         {
             "description": "Before building the jars into android dex archives, filter files inside them.",
             "forks": 6,
             "lang": "Java",
             "name": "JarFilterPlugin",
-            "stars": 89,
+            "stars": 119,
             "type": "repo",
             "url": "https://github.com/nekocode/JarFilterPlugin"
+        },
+        {
+            "description": "A plugin to inject tracing code to methods.",
+            "forks": 1,
+            "lang": "Java",
+            "name": "ASM-Systrace",
+            "stars": 28,
+            "type": "repo",
+            "url": "https://github.com/nekocode/ASM-Systrace"
+        },
+        {
+            "description": "Dependency analysis gradle plugin. Save the dependencies between classes & fields & methods into sqlite database file.",
+            "forks": 0,
+            "lang": "Kotlin",
+            "name": "DepAnPlugin",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/nekocode/DepAnPlugin"
+        },
+        {
+            "description": "This project demonstrates how to import aar libs and android.jar to a pure java gradle module.",
+            "forks": 0,
+            "lang": "Groovy",
+            "name": "Gradle-Import-Aar",
+            "stars": 15,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Gradle-Import-Aar"
         },
         {
             "description": "Wraps the Bangcle WhiteCrypto tools and encrypts your keys at build time.",
@@ -74,58 +56,102 @@
             "url": "https://github.com/nekocode/Bangcle-Crypto-Wrapper"
         },
         {
-            "description": "\ud83d\udcf7 Realtime camera filters on android.",
-            "forks": 279,
+            "description": "It demonstrates a simple way to call android sdk hidden apis directly.",
+            "forks": 0,
             "lang": "Java",
-            "name": "CameraFilter",
-            "stars": 1622,
+            "name": "Hidden-Apis-Calling-Demo",
+            "stars": 0,
             "type": "repo",
-            "url": "https://github.com/nekocode/CameraFilter"
+            "url": "https://github.com/nekocode/Hidden-Apis-Calling-Demo"
         },
         {
-            "description": "One line of code to implement emoji to your whole android application.",
-            "forks": 62,
-            "lang": "Java",
-            "name": "Emojix",
-            "stars": 575,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Emojix"
+            "name": "Android-Runtime",
+            "type": "category"
         },
         {
-            "description": "\ud83d\udcfb A third-party android client of DoubanFM.",
-            "forks": 90,
-            "lang": "Kotlin",
-            "name": "Murmur",
-            "stars": 456,
+            "description": "A debug tool to inspect used layout files of current Activity.",
+            "forks": 19,
+            "lang": "Java",
+            "name": "ResourceInspector",
+            "stars": 347,
             "type": "repo",
-            "url": "https://github.com/nekocode/Murmur"
+            "url": "https://github.com/nekocode/ResourceInspector"
         },
         {
-            "description": "Help to layout and draw dividers on existing views.",
-            "forks": 30,
+            "description": "A router generator for Android, similar to retrofit.",
+            "forks": 28,
             "lang": "Java",
-            "name": "DividerDrawable",
-            "stars": 458,
+            "name": "Meepo",
+            "stars": 319,
             "type": "repo",
-            "url": "https://github.com/nekocode/DividerDrawable"
+            "url": "https://github.com/nekocode/Meepo"
+        },
+        {
+            "description": "Auto generate adapters for android list views.",
+            "forks": 27,
+            "lang": "Java",
+            "name": "Items",
+            "stars": 235,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Items"
+        },
+        {
+            "description": "Setup websocket connection between your applications on mobile and computer.",
+            "forks": 2,
+            "lang": "Java",
+            "name": "Websocket-Adb-Forward",
+            "stars": 7,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Websocket-Adb-Forward"
         },
         {
             "description": "Bind observables to the lifecycle of Activity or Fragment in a non-invasive way.",
             "forks": 40,
             "lang": "Java",
             "name": "RxLifecycle",
-            "stars": 430,
+            "stars": 439,
             "type": "repo",
             "url": "https://github.com/zhihu/RxLifecycle"
         },
         {
-            "description": "Some music visualization demos on Android.",
-            "forks": 29,
+            "description": "This is a library that can help you to receive results from startActivityForResult() as an Observable.",
+            "forks": 5,
             "lang": "Java",
-            "name": "MusicVisualization",
-            "stars": 360,
+            "name": "RxActivityResult",
+            "stars": 73,
             "type": "repo",
-            "url": "https://github.com/nekocode/MusicVisualization"
+            "url": "https://github.com/nekocode/RxActivityResult"
+        },
+        {
+            "name": "Android-Frontend",
+            "type": "category"
+        },
+        {
+            "description": ":octocat: Badge drawable for android.",
+            "forks": 99,
+            "lang": "Java",
+            "name": "Badge",
+            "stars": 821,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Badge"
+        },
+        {
+            "description": "One line of code to implement emoji to your whole android application.",
+            "forks": 63,
+            "lang": "Java",
+            "name": "Emojix",
+            "stars": 577,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Emojix"
+        },
+        {
+            "description": "Help to layout and draw dividers on existing views.",
+            "forks": 30,
+            "lang": "Java",
+            "name": "DividerDrawable",
+            "stars": 461,
+            "type": "repo",
+            "url": "https://github.com/nekocode/DividerDrawable"
         },
         {
             "description": "Low Ploy Triangulation Animation on Android.",
@@ -137,13 +163,62 @@
             "url": "https://github.com/nekocode/TriangulationDrawable"
         },
         {
-            "description": "A plugin to inject tracing code to methods.",
+            "description": "A toolbar indicator for android, likes twitter's.",
+            "forks": 42,
+            "lang": "Java",
+            "name": "ToolbarIndicator",
+            "stars": 218,
+            "type": "repo",
+            "url": "https://github.com/nekocode/ToolbarIndicator"
+        },
+        {
+            "description": "Create blur effect on android by using texture view. ",
             "forks": 1,
             "lang": "Java",
-            "name": "ASM-Systrace",
-            "stars": 27,
+            "name": "blur-using-textureview",
+            "stars": 14,
             "type": "repo",
-            "url": "https://github.com/nekocode/ASM-Systrace"
+            "url": "https://github.com/nekocode/blur-using-textureview"
+        },
+        {
+            "description": "Tachie transition, written in renderscript.",
+            "forks": 1,
+            "lang": "Java",
+            "name": "TachieTransition",
+            "stars": 10,
+            "type": "repo",
+            "url": "https://github.com/nekocode/TachieTransition"
+        },
+        {
+            "name": "Android-App",
+            "type": "category"
+        },
+        {
+            "description": "\ud83d\udcf7 Realtime camera filters on android.",
+            "forks": 283,
+            "lang": "Java",
+            "name": "CameraFilter",
+            "stars": 1657,
+            "type": "repo",
+            "url": "https://github.com/nekocode/CameraFilter"
+        },
+        {
+            "description": "\ud83d\udcfb A third-party android client of DoubanFM.",
+            "forks": 90,
+            "lang": "Kotlin",
+            "name": "Murmur",
+            "stars": 459,
+            "type": "repo",
+            "url": "https://github.com/nekocode/Murmur"
+        },
+        {
+            "description": "Some music visualization demos on Android.",
+            "forks": 30,
+            "lang": "Java",
+            "name": "MusicVisualization",
+            "stars": 373,
+            "type": "repo",
+            "url": "https://github.com/nekocode/MusicVisualization"
         },
         {
             "description": "Hubs is a content crawler application on Android. It provides apis to crawl web content and display data.",
@@ -164,78 +239,24 @@
             "url": "https://github.com/Lua-Xposed/Lua-Xposed"
         },
         {
-            "description": "It demonstrates a simple way to call android sdk hidden apis directly.",
-            "forks": 0,
-            "lang": "Java",
-            "name": "Hidden-Apis-Calling-Demo",
-            "stars": 0,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Hidden-Apis-Calling-Demo"
-        },
-        {
-            "description": "A toolbar indicator for android, likes twitter's.",
-            "forks": 42,
-            "lang": "Java",
-            "name": "ToolbarIndicator",
-            "stars": 219,
-            "type": "repo",
-            "url": "https://github.com/nekocode/ToolbarIndicator"
-        },
-        {
-            "description": "This is a library that can help you to receive results from startActivityForResult() as an Observable.",
-            "forks": 5,
-            "lang": "Java",
-            "name": "RxActivityResult",
-            "stars": 72,
-            "type": "repo",
-            "url": "https://github.com/nekocode/RxActivityResult"
-        },
-        {
-            "description": "Create blur effect on android by using texture view. ",
-            "forks": 1,
-            "lang": "Java",
-            "name": "blur-using-textureview",
-            "stars": 13,
-            "type": "repo",
-            "url": "https://github.com/nekocode/blur-using-textureview"
-        },
-        {
-            "description": "Tachie transition, written in renderscript.",
-            "forks": 1,
-            "lang": "Java",
-            "name": "TachieTransition",
-            "stars": 10,
-            "type": "repo",
-            "url": "https://github.com/nekocode/TachieTransition"
-        },
-        {
-            "description": "Setup websocket connection between your applications on mobile and computer.",
-            "forks": 1,
-            "lang": "Java",
-            "name": "Websocket-Adb-Forward",
-            "stars": 6,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Websocket-Adb-Forward"
-        },
-        {
-            "description": "Internal inspect tool for QA peoples.",
-            "forks": 1,
-            "lang": "Java",
-            "name": "AndroidGodEye",
-            "stars": 8,
-            "type": "repo",
-            "url": "https://github.com/zhihu/AndroidGodEye"
-        },
-        {
-            "name": "Java",
+            "name": "Android-Others",
             "type": "category"
+        },
+        {
+            "description": "Create android kotlin app from template. ",
+            "forks": 197,
+            "lang": "Kotlin",
+            "name": "create-android-kotlin-app",
+            "stars": 1466,
+            "type": "repo",
+            "url": "https://github.com/nekocode/create-android-kotlin-app"
         },
         {
             "description": "Plugin which generates Android Parcelable boilerplate code for kotlin's class.",
             "forks": 14,
             "lang": "Java",
             "name": "android-parcelable-intellij-plugin-kotlin",
-            "stars": 270,
+            "stars": 273,
             "type": "repo",
             "url": "https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin"
         },
@@ -244,29 +265,29 @@
             "forks": 6,
             "lang": "Java",
             "name": "MethodTracerCli",
-            "stars": 57,
+            "stars": 58,
             "type": "repo",
             "url": "https://github.com/nekocode/MethodTracerCli"
-        },
-        {
-            "description": "This project demonstrates how to import aar libs and android.jar to a pure java gradle module.",
-            "forks": 0,
-            "lang": "Groovy",
-            "name": "Gradle-Import-Aar",
-            "stars": 14,
-            "type": "repo",
-            "url": "https://github.com/nekocode/Gradle-Import-Aar"
         },
         {
             "name": "Web",
             "type": "category"
         },
         {
+            "description": " This example demonstrates how to build a GraphQL server over the Prisma.",
+            "forks": 0,
+            "lang": "TypeScript",
+            "name": "typescript-graphql-over-prisma",
+            "stars": 2,
+            "type": "repo",
+            "url": "https://github.com/nekocode/typescript-graphql-over-prisma"
+        },
+        {
             "description": "A simple RESTful Web Service build with Tornado.",
-            "forks": 38,
+            "forks": 40,
             "lang": "Python",
             "name": "tornaREST",
-            "stars": 192,
+            "stars": 196,
             "type": "repo",
             "url": "https://github.com/nekocode/tornaREST"
         },
@@ -281,10 +302,10 @@
         },
         {
             "description": "\u4f7f\u7528 Tornado \u5f00\u53d1\u7684\u5fae\u4fe1\u516c\u4f17\u5e73\u53f0\u6295\u7968\u7cfb\u7edf ",
-            "forks": 16,
+            "forks": 18,
             "lang": "JavaScript",
             "name": "weixin_vote",
-            "stars": 33,
+            "stars": 34,
             "type": "repo",
             "url": "https://github.com/nekocode/weixin_vote"
         },
@@ -324,7 +345,7 @@
             "forks": 3,
             "lang": "C#",
             "name": "Unity3D-TextureAtlasSlicer-Cocos2d-x",
-            "stars": 6,
+            "stars": 7,
             "type": "repo",
             "url": "https://github.com/nekocode/Unity3D-TextureAtlasSlicer-Cocos2d-x"
         },
@@ -361,28 +382,28 @@
         },
         {
             "description": "[Unmaintained] Say Hi to your new followers in Zhihu.",
-            "forks": 56,
+            "forks": 53,
             "lang": "Python",
             "name": "zhihuSayHi",
-            "stars": 123,
+            "stars": 124,
             "type": "repo",
             "url": "https://github.com/nekocode/zhihuSayHi"
         },
         {
             "description": "\ud83d\udcfb \u8c46\u74e3 FM \u7b2c\u4e09\u65b9\u7ea2\u5fc3\u9891\u9053\u64ad\u653e\u5668",
-            "forks": 40,
+            "forks": 42,
             "lang": "Python",
             "name": "doubanfm-py",
-            "stars": 128,
+            "stars": 131,
             "type": "repo",
             "url": "https://github.com/nekocode/doubanfm-py"
         },
         {
             "description": ":pill: \u5fae\u4fe1\u516c\u4f17\u53f7\u9605\u8bfb\u6570\u3001\u70b9\u8d5e\u6570\u83b7\u53d6 \u89e3\u51b3\u65b9\u6848",
-            "forks": 33,
+            "forks": 35,
             "lang": "Python",
             "name": "wx_sniffer",
-            "stars": 63,
+            "stars": 65,
             "type": "repo",
             "url": "https://github.com/nekocode/wx_sniffer"
         },
@@ -391,7 +412,7 @@
             "forks": 4,
             "lang": "PowerShell",
             "name": "win_penetration",
-            "stars": 16,
+            "stars": 17,
             "type": "repo",
             "url": "https://github.com/nekocode/win_penetration"
         },
@@ -406,7 +427,7 @@
         },
         {
             "description": "Docker image for Android builds. Base on Oracle Java 8, Android Sdk 23/24 and Gradle 3.1.",
-            "forks": 7,
+            "forks": 8,
             "lang": null,
             "name": "docker-android",
             "stars": 12,
