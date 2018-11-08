@@ -15,12 +15,12 @@
             "forks": 6,
             "lang": "Java",
             "name": "JarFilterPlugin",
-            "stars": 119,
+            "stars": 121,
             "type": "repo",
             "url": "https://github.com/nekocode/JarFilterPlugin"
         },
         {
-            "description": "A plugin to inject tracing code to methods.",
+            "description": "A plugin to inject tracing code to specified methods.",
             "forks": 1,
             "lang": "Java",
             "name": "ASM-Systrace",
@@ -29,7 +29,7 @@
             "url": "https://github.com/nekocode/ASM-Systrace"
         },
         {
-            "description": "Dependency analysis gradle plugin. Save the dependencies between classes & fields & methods into sqlite database file.",
+            "description": "A gradle plugin to extract the dependency info (between classes, fields and methods) of your Android project.",
             "forks": 0,
             "lang": "Kotlin",
             "name": "DepAnPlugin",
@@ -47,7 +47,7 @@
             "url": "https://github.com/nekocode/Gradle-Import-Aar"
         },
         {
-            "description": "Wraps the Bangcle WhiteCrypto tools and encrypts your keys at build time.",
+            "description": "Encrypt your keys at build time using the Bangcle WhiteCrypto tools.",
             "forks": 1,
             "lang": "Java",
             "name": "Bangcle-Crypto-Wrapper",
@@ -56,7 +56,7 @@
             "url": "https://github.com/nekocode/Bangcle-Crypto-Wrapper"
         },
         {
-            "description": "It demonstrates a simple way to call android sdk hidden apis directly.",
+            "description": "It demonstrates a simple way to directly call hidden apis of android sdk.",
             "forks": 0,
             "lang": "Java",
             "name": "Hidden-Apis-Calling-Demo",
@@ -91,7 +91,7 @@
             "forks": 27,
             "lang": "Java",
             "name": "Items",
-            "stars": 235,
+            "stars": 236,
             "type": "repo",
             "url": "https://github.com/nekocode/Items"
         },
@@ -109,7 +109,7 @@
             "forks": 40,
             "lang": "Java",
             "name": "RxLifecycle",
-            "stars": 439,
+            "stars": 440,
             "type": "repo",
             "url": "https://github.com/zhihu/RxLifecycle"
         },
@@ -131,7 +131,7 @@
             "forks": 99,
             "lang": "Java",
             "name": "Badge",
-            "stars": 821,
+            "stars": 823,
             "type": "repo",
             "url": "https://github.com/nekocode/Badge"
         },
@@ -140,7 +140,7 @@
             "forks": 63,
             "lang": "Java",
             "name": "Emojix",
-            "stars": 577,
+            "stars": 578,
             "type": "repo",
             "url": "https://github.com/nekocode/Emojix"
         },
@@ -149,7 +149,7 @@
             "forks": 30,
             "lang": "Java",
             "name": "DividerDrawable",
-            "stars": 461,
+            "stars": 460,
             "type": "repo",
             "url": "https://github.com/nekocode/DividerDrawable"
         },
@@ -158,7 +158,7 @@
             "forks": 20,
             "lang": "Java",
             "name": "TriangulationDrawable",
-            "stars": 260,
+            "stars": 261,
             "type": "repo",
             "url": "https://github.com/nekocode/TriangulationDrawable"
         },
@@ -198,7 +198,7 @@
             "forks": 283,
             "lang": "Java",
             "name": "CameraFilter",
-            "stars": 1657,
+            "stars": 1661,
             "type": "repo",
             "url": "https://github.com/nekocode/CameraFilter"
         },
@@ -216,7 +216,7 @@
             "forks": 30,
             "lang": "Java",
             "name": "MusicVisualization",
-            "stars": 373,
+            "stars": 374,
             "type": "repo",
             "url": "https://github.com/nekocode/MusicVisualization"
         },
@@ -230,7 +230,7 @@
             "url": "https://github.com/Hubs-App/Hubs"
         },
         {
-            "description": "It can help you to dynamically access and debug Xposed Api by using Lua script without reboot your device.",
+            "description": "It can help you to dynamically access and debug Xposed Api using Lua script, without rebooting your device.",
             "forks": 0,
             "lang": "Kotlin",
             "name": "Lua-Xposed",
@@ -247,7 +247,7 @@
             "forks": 197,
             "lang": "Kotlin",
             "name": "create-android-kotlin-app",
-            "stars": 1466,
+            "stars": 1468,
             "type": "repo",
             "url": "https://github.com/nekocode/create-android-kotlin-app"
         },
@@ -256,7 +256,7 @@
             "forks": 14,
             "lang": "Java",
             "name": "android-parcelable-intellij-plugin-kotlin",
-            "stars": 273,
+            "stars": 274,
             "type": "repo",
             "url": "https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin"
         },
@@ -284,7 +284,7 @@
         },
         {
             "description": "A simple RESTful Web Service build with Tornado.",
-            "forks": 40,
+            "forks": 39,
             "lang": "Python",
             "name": "tornaREST",
             "stars": 196,
@@ -301,11 +301,20 @@
             "url": "https://github.com/nekocode/project-gallery"
         },
         {
+            "description": null,
+            "forks": 0,
+            "lang": "TypeScript",
+            "name": "gradle-dependency-graph-front-end",
+            "stars": 0,
+            "type": "repo",
+            "url": "https://github.com/gradle-dependency-graph/gradle-dependency-graph-front-end"
+        },
+        {
             "description": "\u4f7f\u7528 Tornado \u5f00\u53d1\u7684\u5fae\u4fe1\u516c\u4f17\u5e73\u53f0\u6295\u7968\u7cfb\u7edf ",
             "forks": 18,
             "lang": "JavaScript",
             "name": "weixin_vote",
-            "stars": 34,
+            "stars": 35,
             "type": "repo",
             "url": "https://github.com/nekocode/weixin_vote"
         },
@@ -394,7 +403,7 @@
             "forks": 42,
             "lang": "Python",
             "name": "doubanfm-py",
-            "stars": 131,
+            "stars": 132,
             "type": "repo",
             "url": "https://github.com/nekocode/doubanfm-py"
         },
@@ -502,7 +511,7 @@
             "forks": 0,
             "lang": "TeX",
             "name": "resume",
-            "stars": 0,
+            "stars": 1,
             "type": "repo",
             "url": "https://github.com/nekocode/resume"
         },
@@ -517,12 +526,12 @@
         },
         {
             "description": "\u77e5\u4e4e x RxJava Meetup",
-            "forks": 0,
+            "forks": 19,
             "lang": null,
             "name": "zhihu-rxjava-meetup",
-            "stars": 0,
+            "stars": 362,
             "type": "repo",
-            "url": "https://github.com/nekocode/zhihu-rxjava-meetup"
+            "url": "https://github.com/zhihu/zhihu-rxjava-meetup"
         }
     ]
 }
